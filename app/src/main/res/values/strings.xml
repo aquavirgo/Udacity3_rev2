@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Stock Hawk</string>
+
+    <string name="pref_stocks_initialized_key" translatable="false">initialized</string>
+
+    <string name="pref_stocks_key">stocks</string>
+
+
+    <string name="pref_display_mode_key" translatable="false">displayMode</string>
+    <string name="pref_display_mode_default">@string/pref_display_mode_percentage_key</string>
+
+    <string name="pref_display_mode_absolute_key" translatable="false">absolute</string>
+    <string name="pref_display_mode_percentage_key" translatable="false">percentage</string>
+
+    <string name="default_stocks_yahoo" translatable="false">YHOO</string>
+    <string name="default_stocks_apple" translatable="false">AAPL</string>
+    <string name="default_stocks_microsoft" translatable="false">MSFT</string>
+    <string name="default_stocks_facebook" translatable="false">FB</string>
+
+
+    <string name="action_change_units">@string/pref_display_mode_key</string>
+<string name="error_message">Error message</string>
+
+    <string name="frag_graph_label">Label</string>
+    <string name="frag_graph_year" translatable="false">2017/02/21</string>
+    <string name="frag_graph_price" translatable="false">$21.20</string>
+
+    <string name="dialog_title">Add Stock</string>
+    <string name="dialog_hint">Symbol (e.g. GOOG)</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_add">Add</string>
+
+    <string name="error_no_network">No network connectivity and empty stock list! Will load stock cursor when the network is available.</string>
+    <string name="error_no_stocks">No stocks added! Hit the floating action button to add one.</string>
+
+    <string name="toast_stock_added_no_connectivity">Symbol %s added. Will refresh when network available.</string>
+    <string name="toast_no_connectivity">Will refresh when network available.</string>
+    <string name="toast_no_stock">No stock with symbol</string>
+
+    <string name="button_add">Add</string>
+    <string name="add_stock_to_list">Add stock to the stocks list</string>
+    <string name="appwidget_text">Stock Hawk</string>
+    <string name="add_widget">Add widget</string>
+    <string name="list_item_quote_example" translatable="false">GOOG</string>
+    <string name="list_item_quote_proc" translatable="false">100%</string>
+    <string name="list_item_quote_price" translatable="false">1000</string>
+  <string name="widget_text_empty_list">Empty List</string>
+    <string name="dolar" translatable="false">$</string>
+</resources>
